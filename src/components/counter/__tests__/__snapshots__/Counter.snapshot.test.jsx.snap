@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter snapshot tests render counter with 5 1`] = `
+<div
+  className="counter"
+>
+  <h1>
+    5
+  </h1>
+  <button
+    className="incrementButton"
+  >
+    Increment
+  </button>
+  <button
+    className="resetButton"
+  >
+    Reset counter
+  </button>
+</div>
+`;
+
+exports[`Counter snapshot tests render counter with default count 1`] = `
+<div
+  className="counter"
+>
+  <h2>
+    Click the button to increment the count
+  </h2>
+  <h1>
+    0
+  </h1>
+  <button
+    className="incrementButton"
+  >
+    Increment
+  </button>
+  <button
+    className="resetButton"
+  >
+    Reset counter
+  </button>
+</div>
+`;

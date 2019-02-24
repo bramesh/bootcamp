@@ -18,7 +18,7 @@ class Counter extends React.PureComponent {
             ...elementProps
         } = this.props;
         return(
-            <div {...elementProps}>  
+            <div {...elementProps} className="counter">  
                 {!count && (<h2>Click the button to increment the count</h2>)}
                 <h1>{count}</h1>
                 <button className="incrementButton" onClick={onCountChange}>Increment</button>
